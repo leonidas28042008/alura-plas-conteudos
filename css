@@ -1,0 +1,50 @@
+body {
+    background-color: #f5f3ea; /* cor de fundo marrom claro */
+    color: #000; /* cor do texto preto */
+    font-family: Arial, sans-serif; /* escolha de fonte */
+}
+
+header {
+    background-color: #8b7d6b; /* cor de fundo marrom escuro */
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff; /* cor do texto do cabeçalho */
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.conteudo {
+    background-color: #fff; /* cor de fundo branca para o conteúdo */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra leve */
+}
+
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.imagens img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #8b7d6b; /* cor de fundo marrom escuro */
+    color: #fff; /* cor do texto do rodapé */
+}
